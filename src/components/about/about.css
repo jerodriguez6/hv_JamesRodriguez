@@ -1,0 +1,50 @@
+ .about-section {
+     display: flex;
+     padding: 5%;
+     background-color: #3c3c3d;
+ }
+ .section-about {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    top: 50%;
+}
+ .about-section img {
+     width: 240px;
+     height: 240px;
+     border-radius: 50%;
+     margin: 0 auto;
+     box-shadow: 0 6px 25px rgba(255,235,167,.35);
+ }
+ .about-section p {
+     letter-spacing: 1px;
+     color: #fff;
+     font-size: 16px;
+     font-weight: 500;
+ }
+ .about-section p span {
+     letter-spacing: 1px;
+     color: #ffeba7;
+     font-size: 20px;
+     font-weight: 700;
+ }
+ 
+ 
+ /* #Link to page
+ ================================================== */
+ 
+ .logo {
+     position: fixed;
+     bottom: 30px;
+     right: 30px;
+     display: block;
+     z-index: 200000;
+     transition: all 250ms linear;
+ }
+ .logo img {
+     height: 26px;
+     width: auto;
+     display: block;
+     mix-blend-mode: difference;
+ }
+ 

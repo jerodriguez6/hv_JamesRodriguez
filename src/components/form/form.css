@@ -1,0 +1,70 @@
+
+ .contactus{
+    background-color: #400099a4;
+    padding: 1px;
+ }
+ .contactme{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10%;
+    gap:20%;
+}
+
+label {
+	color: #b2b2b2;
+    font-weight: bold;
+    font-size:x-large;
+}
+
+form input,
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: none;
+	border: 1px solid #222;
+	background: transparent;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	color: #b2b2b2;
+    font-size: large;
+}
+
+input[type="submit"] {
+	background-color: #b2b2b2;
+	color: #222;
+	text-transform: uppercase;
+	padding: 12px 20px;
+	border: 1px solid #222;
+	cursor: pointer;
+    font-weight: bold;
+	transition: all 0.35s;
+}
+
+input[type="submit"]:hover {
+	background-color: #222;
+	color: #b2b2b2;
+    font-weight: bold;
+}
+
+p{
+    background-color: transparent;
+    font-size: x-large;
+    font-weight: bold
+}
+
+@media only screen and (max-width: 768px) {
+    .contactme{
+        display: grid;
+        margin-bottom: 30%;
+        gap: 10%;
+    }
+    .form{
+        margin: 50px 0px;
+        width: 100%;
+        padding: 30px;
+        border-radius: 10px;
+        background: #9CC5A1;
+    }
+}

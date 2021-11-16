@@ -1,0 +1,30 @@
+footer {
+	background-color: #000;
+    color: #fff;
+}
+
+.top-bar {
+	padding: 5px 0;
+	text-align: center;
+}
+
+.top-bar a {
+	margin: 20px;
+	font-size: 2em;
+	color: #b2b2b2;
+	transition: all .35s;
+	display: inline-block;
+}
+
+.top-bar a:hover{
+	transform: scale(1.1);
+	color: #386daa;
+}
+
+.bottom-bar {
+	font-size: 1em;
+	text-align: center;
+}
+.copy{
+	font-size:small
+}

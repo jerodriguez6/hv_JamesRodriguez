@@ -1,0 +1,95 @@
+.titulo-clientes{
+    background-color: #FF8672;
+    font-size: 60px;
+}
+
+#clients {
+    background-color: #FF8672;
+    padding: 8%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr;
+    grid-gap: 15px;
+  }
+  .project {
+    position: relative;
+    overflow: hidden;
+    height: 80vh;
+    border-radius: 5px;
+  }
+  
+  .project img {
+      position: absolute;
+      opacity: 0.5;
+    }
+  .project p {
+      color: white;
+      font-weight: 900;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      padding: 1em 0;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      z-index: 3;
+    }
+  .grid__title {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      white-space: nowrap;
+      bottom: 0;
+      font-weight: 800;
+      font-size: 0.8em;
+      z-index: 3;
+      text-transform: uppercase;
+      color: white;
+      letter-spacing: 2px;
+      background-color: transparent;
+    }
+  
+  .project:hover .grid__overlay {
+    transform: translateY(0%);
+  }
+  
+  .grid__overlay {
+    background: #9CC5A1;
+    height: 100%;
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    position: relative;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    transform: translateY(100%);
+    transition: all 0.3 ease-in-out;
+  }
+  .grid__overlay button {
+      background: none;
+      outline: none;
+      font-weight: 100;
+      letter-spacing: 2px;
+      border: 1px solid white;
+      color: white;
+      text-transform: uppercase;
+      padding: 10px;
+  }
+  .grid__overlay button:hover {
+      background: white;
+      color: #d1a39e;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    
+    #clients {
+        background-color: #FF8672;
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 15px;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+      }
+    
+  }
