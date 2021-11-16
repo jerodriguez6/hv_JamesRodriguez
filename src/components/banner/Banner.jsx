@@ -7,10 +7,9 @@ const Banner = () => {
 		<div>
 			<div className="hero-section">
 				<nav>
-					<h2>d</h2>
 				</nav>	
-				<div className="about-text hover-target">about</div>
-				<div className="contact-text hover-target">contact</div>
+				<div className="about-text hover-target"><a href="#about">about</a></div>
+				<div className="contact-text hover-target"><a href="#contact">contact</a></div>
 				<div className="section-banner">
 					<div className="container-fluid">
 						<div className="row justify-content-center">
@@ -22,7 +21,7 @@ const Banner = () => {
 							</div>
 							<div className="text-center">
 								<p>
-									<span className="work-text hover-target">work</span>
+									<span className="work-text hover-target"><a href="#work">work</a></span>
 								</p>
 							</div>
 						</div>

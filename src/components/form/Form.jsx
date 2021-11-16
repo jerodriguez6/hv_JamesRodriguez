@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Form = () => {
     return (
-        <div>
+        <div id="contact">
           <section id="contacto" className="contactus">
             <div className="contactme">
                     <div>
