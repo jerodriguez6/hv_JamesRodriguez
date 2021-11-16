@@ -7,10 +7,10 @@ const Footer = () => {
     return (
         <div>
                 <section class="top-bar">
-                    <a href="" target="blank"><FontAwesomeIcon icon={faGithub} /></a>
-                    <a href="" target="blank"><FontAwesomeIcon icon={faLinkedin} /></a>
-                    <a href=""target="blank"><FontAwesomeIcon icon={faGitlab} /></a>
-                    <a href=""target="blank"><FontAwesomeIcon icon={faBehance} /></a>
+                    <a href="www.facebook.com" target="blank"><FontAwesomeIcon icon={faGithub} /></a>
+                    <a href="www.facebook.com" target="blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+                    <a href="www.facebook.com"target="blank"><FontAwesomeIcon icon={faGitlab} /></a>
+                    <a href="www.facebook.com"target="blank"><FontAwesomeIcon icon={faBehance} /></a>
                 </section>
                 <section class="bottom-bar">
                     <p className="copy">Daniela Ospina Sarmiento | All rights reserved</p>
