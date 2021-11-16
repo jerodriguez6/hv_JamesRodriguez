@@ -24,7 +24,7 @@ const About = () => {
                                     <br></br>
                             </div>
                             <div className="col-12 text-center">
-                                <a href="https://www.canva.com/design/DAEqmFayL_k/jvBbkA5Vs-T4u8k5OL_7rg/view?utm_content=DAEqmFayL_k&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" target="_blank">VER CV</a>
+                                <a href="https://www.canva.com/design/DAEqmFayL_k/jvBbkA5Vs-T4u8k5OL_7rg/view?utm_content=DAEqmFayL_k&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" target="blank">VER CV</a>
                             </div>
                         </div>
                     </div>
