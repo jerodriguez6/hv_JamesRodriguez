@@ -1,20 +1,25 @@
+.work{
+  background-color: #FF8672;
+}
 .titulo-clientes{
-    background-color: #FF8672;
-    font-size: 60px;
+  padding-top: 5%;
+  font-size: 60px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 #clients {
-    background-color: #FF8672;
-    padding: 8%;
+    padding: 5% 10%;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 1fr;
-    grid-gap: 15px;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 5%;
   }
+
   .project {
     position: relative;
     overflow: hidden;
-    height: 80vh;
+    height: 50vh;
     border-radius: 5px;
   }
   
@@ -45,7 +50,6 @@
       text-transform: uppercase;
       color: white;
       letter-spacing: 2px;
-      background-color: transparent;
     }
   
   .project:hover .grid__overlay {
@@ -84,8 +88,7 @@
     #clients {
         background-color: #FF8672;
         display: grid;
-        grid-template-columns: 40% 40%;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 80%;
         grid-gap: 15px;
         align-items: center;
         justify-content: center;

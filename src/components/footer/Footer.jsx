@@ -5,7 +5,7 @@ import {faBehance, faGithub, faGitlab, faLinkedin} from '@fortawesome/free-brand
 
 const Footer = () => {
     return (
-        <div>
+        <div className="footer">
                 <section class="top-bar">
                     <a href="www.facebook.com" target="blank"><FontAwesomeIcon icon={faGithub} /></a>
                     <a href="www.facebook.com" target="blank"><FontAwesomeIcon icon={faLinkedin} /></a>
