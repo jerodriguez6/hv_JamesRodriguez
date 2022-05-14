@@ -6,6 +6,101 @@ const Work = () => {
         <div id="work" className="work">
             <h1 className="titulo-clientes">PROYECTOS</h1>
             <section id="clients">
+            <div className="project">
+                    <img
+                        className="project__image"
+                        src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e5a31d03ddee66863a599421f792e07b&auto=format&fit=crop&w=700&q=80"
+                        alt="a"
+                    />
+                    <p>HOROSCOPE NFT DAPP</p>
+                    <h3 className="grid__title">NFT GAMING</h3>
+                    <div className="grid__overlay">
+                        <button className="viewbutton">
+                            <a
+                                href="https://horoscopenftdapp.netlify.app/"
+                                target="blank"
+                            >
+                                Ver proyecto
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div className="project">
+                    <img
+                        className="project__image"
+                        src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e5a31d03ddee66863a599421f792e07b&auto=format&fit=crop&w=700&q=80"
+                        alt="a"
+                    />
+                    <p>GRASS ARENA</p>
+                    <h3 className="grid__title">NFT GAMING</h3>
+                    <div className="grid__overlay">
+                        <button className="viewbutton">
+                            <a
+                                href="https://grassarenanft.netlify.app/"
+                                target="blank"
+                            >
+                                Ver proyecto
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div className="project">
+                    <img
+                        className="project__image"
+                        src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e5a31d03ddee66863a599421f792e07b&auto=format&fit=crop&w=700&q=80"
+                        alt="a"
+                    />
+                    <p>DAPP ERIS GALAXY</p>
+                    <h3 className="grid__title">DAPP</h3>
+                    <div className="grid__overlay">
+                        <button className="viewbutton">
+                            <a
+                                href="https://dapperisgalaxy.netlify.app/"
+                                target="blank"
+                            >
+                                Ver proyecto
+                            </a>
+                        </button>
+                    </div>
+                </div>
+               <div className="project">
+                    <img
+                        className="project__image"
+                        src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e5a31d03ddee66863a599421f792e07b&auto=format&fit=crop&w=700&q=80"
+                        alt="a"
+                    />
+                    <p>KUNGFU KOALAS NFT</p>
+                    <h3 className="grid__title">KUNGFU KOALAS</h3>
+                    <div className="grid__overlay">
+                        <button className="viewbutton">
+                            <a
+                                href="https://kungfukoalasgold.netlify.app/"
+                                target="blank"
+                            >
+                                Ver proyecto
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div className="project">
+                    <img
+                        className="project__image"
+                        src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e5a31d03ddee66863a599421f792e07b&auto=format&fit=crop&w=700&q=80"
+                        alt="a"
+                    />
+                    <p>ORBE GAME STUDIOS</p>
+                    <h3 className="grid__title">ERIS GALAXY - NFT GAMING</h3>
+                    <div className="grid__overlay">
+                        <button className="viewbutton">
+                            <a
+                                href="https://www.erisgalaxy.com/"
+                                target="blank"
+                            >
+                                Ver proyecto
+                            </a>
+                        </button>
+                    </div>
+                </div>
                 <div className="project">
                     <img
                         className="project__image"

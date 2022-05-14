@@ -57,7 +57,7 @@
 }
 
 .grid__overlay {
-    background: #525352;
+    background: #525353;
     height: 100%;
     grid-column: 1 / -1;
     grid-row: 1 / -1;
@@ -66,8 +66,14 @@
     justify-items: center;
     align-items: center;
     transform: translateY(100%);
-    transition: all 0.3 ease-in-out;
+    
+    transition: 0.5s;
 }
+.grid__overlay:hover {
+    transform: translateY(-50px);
+    background-color: rgb(43, 43, 100);
+}
+
 .grid__overlay button {
     background: none;
     outline: none;
@@ -81,6 +87,7 @@
 .grid__overlay button:hover {
     background: white;
     color: #d1a39e;
+    
 }
 
 @media only screen and (max-width: 768px) {

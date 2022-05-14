@@ -2,8 +2,10 @@ import React from "react";
 import "../../components/form/form.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
 const Form = () => {
     return (
+        
         <div id="contact">
             <section id="contacto" className="contactus">
                 <div className="contactme">
@@ -12,6 +14,11 @@ const Form = () => {
                         <p>Enviame un mensaje a mi correo.</p>
                     </div>
                     <div className="contact">
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
                         <form
                             method="POST"
                             action="https://formsubmit.co/jamesrodriguez3188@gmail.com"
